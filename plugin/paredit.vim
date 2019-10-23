@@ -533,10 +533,10 @@ function! PareditInitBuffer()
         nnoremap <buffer> <silent> cT{  :<C-U>call PareditChangeSpec('cT{',1)<CR>
         nnoremap <buffer> <silent> cf{  :<C-U>call PareditChangeSpec('cf{',1)<CR>
         nnoremap <buffer> <silent> cF{  :<C-U>call PareditChangeSpec('cF{',1)<CR>
-        nnoremap <buffer> <silent> ct|  :<C-U>call PareditChangeSpec('ct|',1)<CR>
-        nnoremap <buffer> <silent> cT|  :<C-U>call PareditChangeSpec('cT|',1)<CR>
-        nnoremap <buffer> <silent> cf|  :<C-U>call PareditChangeSpec('cf|',1)<CR>
-        nnoremap <buffer> <silent> cF|  :<C-U>call PareditChangeSpec('cF|',1)<CR>
+        nnoremap <buffer> <silent> ct\|  :<C-U>call PareditChangeSpec('ct\|',1)<CR>
+        nnoremap <buffer> <silent> cT\|  :<C-U>call PareditChangeSpec('cT\|',1)<CR>
+        nnoremap <buffer> <silent> cf\|  :<C-U>call PareditChangeSpec('cf\|',1)<CR>
+        nnoremap <buffer> <silent> cF\|  :<C-U>call PareditChangeSpec('cF\|',1)<CR>
         nnoremap <buffer> <silent> ct}  :<C-U>call PareditChangeSpec('ct}',1)<CR>
         nnoremap <buffer> <silent> cT}  :<C-U>call PareditChangeSpec('cT}',1)<CR>
         nnoremap <buffer> <silent> cf}  :<C-U>call PareditChangeSpec('cf}',1)<CR>
@@ -1018,10 +1018,10 @@ function! PareditInitBuffer()
         silent! unmap <buffer> cT{
         silent! unmap <buffer> cf{
         silent! unmap <buffer> cF{
-        silent! unmap <buffer> ct|
-        silent! unmap <buffer> cT|
-        silent! unmap <buffer> cf|
-        silent! unmap <buffer> cF|
+        silent! unmap <buffer> ct\|
+        silent! unmap <buffer> cT\|
+        silent! unmap <buffer> cf\|
+        silent! unmap <buffer> cF\|
         silent! unmap <buffer> ct}
         silent! unmap <buffer> cT}
         silent! unmap <buffer> cf}
